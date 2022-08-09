@@ -11,9 +11,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "docker-server" {
-  ami             = "ami-02e136e904f3da870"
+  ami             = "ami-09d95fab7fff3776c"
   instance_type   = "t2.micro"
-  key_name        = "walter-pem"
+  key_name        = "win-key"
   //  Write your pem file name
   vpc_security_group_ids = [aws_security_group.sec-gr.id]
   tags = {
