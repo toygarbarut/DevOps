@@ -1,0 +1,3 @@
+[servers]
+db_server ansible_host=xxxxxxxxxxxxxxx ansible_ssh_private_key_file=/home/ec2-user/xxxxxxxxxxxxxx.pem ansible_user=ec2-user
+webserver ansible_host=xxxxxxxxxxxxxxxxxxx ansible_ssh_private_key_file=/home/ec2-user/xxxxxxxxxxxxxxx.pem ansible_user=ec2-user
